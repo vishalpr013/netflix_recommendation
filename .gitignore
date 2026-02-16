@@ -1,0 +1,52 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/
+
+# Large data files (download separately - see README)
+movie_data.pkl
+
+# Uncomment if CSV files are also too large
+# *.csv
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Cache
+*.cache
+.pytest_cache/
